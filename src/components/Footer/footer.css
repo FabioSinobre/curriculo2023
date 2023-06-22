@@ -1,0 +1,12 @@
+#container_footer{
+    background: #1C1C1C;
+    padding-bottom: 5px;
+}
+.footer{
+    background: #007880;
+    color: #FFFFFF;
+    padding: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}

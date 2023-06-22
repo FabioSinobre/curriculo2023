@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cinzel:wght@400;500;600;700&family=Kaushan+Script&family=Labrada:ital,wght@0,400;0,800;1,100;1,500;1,800&display=swap');
+
+.board {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 3px;
+    background: #1C1C1C;
+}
+
+@media (max-width: 923px) {
+    .board {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        padding-right: 10px;
+    }
+    #network{
+        order: -1;
+    }
+    #img_logo{
+        background: #81A51D;
+        order: -1;
+        text-align: center;
+    }
+    img{
+        margin: auto;
+        display: block;
+    }
+
+}
+
+#network {
+    width: 100%;
+    padding: 4px;
+    text-align: center;
+    padding-top: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#nav_network a:hover{
+    transition: 1s;
+    background: beige;
+    color: #1C1C1C;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 839px) {
+    nav {
+        display: none;
+    }
+
+    /* menu hamburgue*/
+    .section_toggle .one {
+        background: #ffffff;
+        height: 2px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.6s;
+    }
+
+    .section_toggle .two {
+        background: #ffffff;
+        height: 2px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.6s;
+    }
+
+    .section_toggle .three {
+        background: #ffffff;
+        height: 2px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.6s;
+    }
+
+    .menu_toggle {
+        width: 25px;
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    /*fullscren*/
+    .section_toggle.on {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #171817;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_toggle.on nav {
+        display: block;
+    }
+
+    .section_toggle.on nav a {
+        text-align: center;
+        display: block;
+        transition-duration: 0.5s;
+        font-size: 2.5rem;
+    }
+
+    .section_toggle.on .menu_toggle {
+        position: absolute;
+        top: 35px;
+    }
+
+    .section_toggle.on .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .section_toggle.on .two {
+        opacity: 0;
+    }
+
+    .section_toggle.on .three {
+        transform: rotate(-45deg) translate(4px, -5px);
+    }
+}
+
+a {
+    padding: 19px;
+    margin: 5px;
+    color: #81A51D;
+}
+
+.title {
+    background: #007880;
+    width: 100%;
+    border-radius: 40px 0px 0px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+h1 {
+    font-family: 'Charm';
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Charm';
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+#btn_links {
+    background: #76854d;
+    width: 100%;
+    height: 60px;
+    margin: 5px;
+    margin-bottom: 35px;
+    text-align: center;
+    border-radius: 0px 0px 40px 0px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.btn:hover{
+    margin: 8px;
+    transition: 1;
+
+}
+.btn_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 25px;
+}
+.btn {
+    color: #ffffff ;
+}
+
+@media (max-width: 924px) {
+    #btn_links {
+        height: 120px;
+    }
+
+    .btn_main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.btn {
+    background: #007880;
+    color: antiquewhite;
+    margin: 5px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#img_logo img {
+    width: 35.5vh;
+}
+
+#img_logo {
+    width: 35.5vh;
+    text-align: right;
+    background: #1C1C1C;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

@@ -1,0 +1,11 @@
+.card_work{
+    background: #1c1c1c;
+    margin: 0;
+    padding: 5px;
+    font-size: 1.6rem;
+}
+.card_long{
+    background: #F1EDC6;
+    margin: 5px;
+    padding: 25px;
+}

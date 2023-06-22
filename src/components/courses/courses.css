@@ -1,0 +1,12 @@
+.container_course{
+    background: #1c1c1c; 
+    display: flex;
+    flex-direction: column;  
+}
+img{
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    width: 90vh;
+}
