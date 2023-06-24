@@ -52,6 +52,7 @@ function Article(){
             <div className="books"><h4>Projetos</h4></div>
              <p >Robô 4N69 desenvolvido no Projeto integrador <a href="https://affectionate-khorana-bb7c5a.netlify.app/">Acesso aqui</a></p>
              <p>Semana React da DevSuperior apresenta um dashbord <a href="https://dsvendas-sinobre.netlify.app/"> Acesso aqui</a></p>
+             <p>Projeto de câmeras de segurança realizado em 2023 <Link to='/cameraimg'>clique aqui</Link></p>
             </div>
         </div>
         

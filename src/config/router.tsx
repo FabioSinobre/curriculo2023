@@ -18,11 +18,12 @@ import ReactFirebase from '../components/courses/React_firebase/react_firebase'
 import Scrum from '../components/courses/scrum/scrum'
 import WhiteBelt from '../components/courses/White_Belt/white_belt'
 import GreenBelt from '../components/courses/Green_belt/green_belt'
+import Camera from '../components/Article/Executive/camera/camera'
 
 function MainRotes(){
     return(
         <Routes>
-            <Route path='/' element={<Home/>} />
+            <Route path='*' element={<Home/>} />
             <Route path='/sumariocurto' element={<Summary01/>} />
             <Route path='/sumariolongo' element={<Summary02/>} />
             <Route path='/fotos' element={<Fotos/>} />
@@ -36,6 +37,8 @@ function MainRotes(){
             <Route path='/bancoSql' element={<BdMysql/>} />
             <Route path='/zelador' element={<Zelador/>} />
             <Route path='/tcc' element={<TCC/>} />
+            <Route path='/cameraimg' element={<Camera/>} />
+            
  
         </Routes>
        

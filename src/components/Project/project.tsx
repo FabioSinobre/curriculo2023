@@ -1,10 +1,13 @@
 import './project.css'
 
 import Alert_construct from '../../assets/drawable/alert_construct.png'
+import Header from '../Header/header'
+import Footer from '../Footer/footer'
 
 function Project(){
     return(
         <>
+        <Header/>
         <div className="container_course">
             <div className="conteiner_project">
                 <h2>Desculpa</h2>
@@ -16,6 +19,7 @@ function Project(){
             </div>
             </div>
         </div>
+        <Footer/>
         </>
     )
 }

@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom"
 
+import Header from "../../Header/header"
+import Footer from "../../Footer/footer";
+
 function Summary02(){
     return(
         <>
+        <Header />
         <div className="main_article">
             <div className="summary">
                     <h2>Sumário Executivo</h2>
@@ -23,6 +27,7 @@ function Summary02(){
                     <div className="link_read"><Link to='/'>Voltar para home...</Link></div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

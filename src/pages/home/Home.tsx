@@ -1,13 +1,16 @@
 import Article from "../../components/Article/article";
 import Section from "../../components/Section/section";
-import Email from "../../components/Header/Email/email";
+import Header from "../../components/Header/header";
+import Footer from "../../components/Footer/footer";
 
 
 function MainRotes(){
     return(
         <>
-            <Article />
-            <Section />
+        <Header />
+        <Article />
+        <Section />
+        <Footer />
         </>
     )
 }

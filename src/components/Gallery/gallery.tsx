@@ -27,10 +27,16 @@ import Slide23 from "../../assets/fotos/Slide23.jpg"
 import Slide24 from "../../assets/fotos/Slide24.jpg"
 import Slide25 from "../../assets/fotos/Slide25.jpg"
 import Slide26 from "../../assets/fotos/Slide26.jpg"
+import Slide27 from "../../assets/fotos/Slide27.jpg"
+import Slide28 from "../../assets/fotos/Slide28.jpg"
+
+import Header from "../../components/Header/header"
+import Footer from "../../components/Footer/footer"
 
 function Gallery(){
     return(
         <>
+        <Header/>
         <div className="gallery_container">
             <h1>Galeria de Fotos</h1>
             <div className="gallery_columns">
@@ -60,8 +66,11 @@ function Gallery(){
                 <div className="gallery_img"><Link to='/'><img src={Slide24} alt="" /></Link> </div>
                 <div className="gallery_img"><Link to='/'><img src={Slide25} alt="" /></Link> </div>
                 <div className="gallery_img"><Link to='/'><img src={Slide26} alt="" /></Link> </div>
+                <div className="gallery_img"><Link to='/'><img src={Slide27} alt="" /></Link> </div>
+                <div className="gallery_img"><Link to='/'><img src={Slide28} alt="" /></Link> </div>
             </div>
         </div>
+        <Footer/>
         </>
     )
 }
